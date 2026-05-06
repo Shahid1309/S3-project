@@ -5,7 +5,7 @@ export default function Navbar() {
     <header className="navbar">
       <div className="navbar-inner">
         <Link to="/" className="navbar-logo">
-          <span className="logo-icon">✦</span> DevBlog
+          <span className="logo-icon">✦</span> Dr Farhan Aligarh Wale
         </Link>
         <nav className="navbar-links">
           <NavLink
