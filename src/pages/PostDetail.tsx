@@ -1,9 +1,10 @@
+import React from "react";
 import { useParams, Link, Navigate } from "react-router-dom";
 import { posts } from "../data/posts";
 
 function renderContent(content: string) {
   const lines = content.split("\n");
-  const elements: JSX.Element[] = [];
+  const elements: React.ReactElement[] = [];
   let key = 0;
   let codeBlock: string[] = [];
   let inCode = false;
